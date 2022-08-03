@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./imagenes/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Merriweather&family=Montserrat:wght@700&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <title>Buenos Aires - Contacto</title>
+    <!-- Framework para hacer la galeria-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+
+<body>
+    <div class="principal">
+        <header>
+            <nav class="menu">      
+                <ul class="mobile_menu">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./informacion.html">Informacíon</a></li>
+                    <li><a href="./itinerario.html">Itinerario</a></li>
+                    <li><a class="activo" href="">Contacto</a></li>
+                </ul>  
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div> 
+            </nav>
+        </header>
+
+        <div class="mobile_contact">
+            <h1>Contacto</h1>
+        </div>
+    <main>
+        <div class="contacto">
+         <div class="input-field">
+            <form action="./gracias.html">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" >
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                    
+                        <select name="seleccion" class="input-field" required>
+                        
+                            <option value="" disabled selected>Seleccione una Opcion</option>
+                            <option value="covid-19">COVID-19</option>
+                            <option value="actividades">Actividades</option>
+                            <option value="informacion">Informacíon</option>
+                            <option value="otro">Otro</option>
+                        
+                        </select>
+
+                    
+
+                
+                <label for="checkbox">
+                    <input type="checkbox" class="filled-in"  id="checkbox" name="checkbox"/>
+                    <span>Inscribirse a nuestra newsletter</span>
+                </label><br>
+
+                <label for="consulta">Consulta:</label>
+                <input type="text" id="consulta" name="consulta">         
+                
+                
+                <input class="button" type="submit" value="Enviar">
+            </form>     
+            
+         </div>
+        </div>
+    </main>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210146.68168877432!2d-58.573383207134555!3d-34.615743688997895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1592606947439!5m2!1ses-419!2sar" width="1349" height="400" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+     <!-- Materialize framework-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+     <script src="main.js"></script>
+     <footer>
+        <a>Buenos Aires, una gran ciudad para vivir, visitar, estudiar y hacer negocios.</a>
+        <div class="footer"> 
+            <ul class="profesionales">
+                <li><a>Alumno: Nehuen Amaro </a></li>
+                <li><a>Trabajo Practico / 2020 Para el primer cuatrimestre de la escuela Da Vinci</a></li>
+            </ul>
+            
+            <ul class="prensa"> 
+                <li><a>Materia: Maquetado y Desarollo Web</a></li>
+                <li><a>Docente: Mabel Garcia</a></li>
+            </ul>
+        </div>
+     </footer>
+     </div>
+
+</body>
+</html>
